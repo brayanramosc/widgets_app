@@ -16,6 +16,13 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
+      title: 'Counter',
+      subtitle: 'Contador con riverpod',
+      url: '/counter',
+      icon: Icons.add,
+  ),
+
+  MenuItem(
       title: 'Botones',
       subtitle: 'Varios botones de flutter',
       url: '/buttons',
@@ -48,5 +55,12 @@ const appMenuItems = <MenuItem>[
     subtitle: 'Stateful widget animado',
     url: '/animated',
     icon: Icons.check_box_outline_blank_rounded,
+  ),
+
+  MenuItem(
+    title: 'Cambiar tema',
+    subtitle: 'Cambiar tema de la app',
+    url: '/theme-changer',
+    icon: Icons.color_lens_outlined,
   ),
 ];
